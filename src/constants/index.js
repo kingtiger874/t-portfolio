@@ -45,13 +45,17 @@ export const navLinks = [
 
 const services = [
   {
+    title: "Full Stack Developer",
+    icon: mobile,
+  },
+  {
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "Mobile Developer",
-    icon: mobile,
-  },
+  // {
+  //   title: "Mobile Developer",
+  //   icon: mobile,
+  // },
   {
     title: "Frontend Developer",
     icon: creator,
@@ -107,59 +111,57 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Engineer",
-    company_name: "InsureCert Systems Inc",
+    title: "Front-End Developer",
+    company_name: "FinTech Innovations",
     icon: "/company/insurecert.png",
     iconBg: "rgb(230, 222, 221)",
-    date: "Nov 2022 - Present",
+    date: "Jan 2023 - Dec 2024",
     points: [
-      "Spearheaded the design and development of the AAMI Real Estate Website, improving user experience and functionality by 25% which contributed to a 10% increase in customer retention",
-      "Developed custom, reusable React components for a library, enhancing development efficiency and consistency across projects by 30%",
-      "Optimized MongoDB queries reducing load times and improving overall performance by 30% through a modified indexing strategy",
-      "Integrated Stripe API to enable secure payment processing enhancing user trust and increasing transaction rates by 15%",
-      "Mentored junior developers fostering their growth and increasing team efficiency by 20% through Agile practices and coding standard"
+      "Built Interactive Financial Tools: Developed dynamic dashboards using React.js and D3.js to display investment trends, market data, and portfolio analytics.",
+      "Integrated Live Updates: Utilized WebSocket technology to enable seamless real-time data flow for stock prices and portfolio values.",
+      "Enhanced Performance: Optimized rendering of extensive data sets with React Window, ensuring smooth interaction and fast load times.",
+      "Responsive UI Design: Created device-agnostic, visually appealing user interfaces with Tailwind CSS and SCSS for consistent experiences.",
+      "Collaborated Across Teams: Partnered with UI/UX designers to deliver user-friendly platforms tailored to retail and institutional clients.",
+      "Ensured Data Integrity: Implemented advanced security measures aligned with fintech compliance standards to protect sensitive user information."
+
     ],
   },
   {
     title: "Full-Stack Developer",
-    company_name: "Overture Law",
+    company_name: "CloudWorks Solutions",
     icon: "/company/overture.png",
     iconBg: "rgb(230, 222, 221)",
-    date: "Jan 2022 - Oct 2022",
+    date: "Apr 2020 - Dec 2023",
     points: [
-      "Developed a real-time collaborative platform using React, Node.js and WebSocket, facilitatin instance communication among users",
-      "Constructed a progressive web application(PWA), enhancing mobile user experience and offline capabilities",
-      "Established and upgraded RESTful APIs improving data transfer efficiency and increasing overall application performance by 25%",
-      "Integrated Elasticsearch with Node.js applications for advanced search capabilities, significantly improving user query response times by 60%",
-      "Supported 3 junior developers by sharing the best coding conventions and examples which helped reduce code review revisions by 40%"
+      "Developed Interactive Applications: Delivered scalable inventory and learning platforms featuring live data synchronization to boost user engagement and reduce latency.",
+      "Optimized Cloud Performance: Integrated AWS CloudFront to accelerate content delivery and improve system responsiveness.",
+      "Real-Time Synchronization: Implemented WebSockets for instant notifications and data updates, enhancing the user experience.",
+      "Full-Stack Development: Built clean, maintainable solutions using Angular, Next.js, Node.js, and Tailwind CSS, meeting diverse project requirements."
     ],
   },
   {
-    title: "Backend Developer",
-    company_name: "Goons of Balatroon",
+    title: "Front-End & Back-End Developer",
+    company_name: "GlobalTech Innovations",
     icon: "/company/goons.png",
     iconBg: "rgb(56, 62, 86)",
     date: "Mar 2019 - Jan 2022",
     points: [
-      "Streamlined the backend of the Goons of Balatroon NFT card game resulting in a 160%^ increase in the number of daily active users",
-      "Built NFT management app streamlining backend processes and leading to a 25% rise in NFT transactions",
-      "Implemented backend integrations to support interactive player statistics increasing user engagement by 30%",
-      "Automated the CI/CD pipeline for multiple projects usign Jenkins and Docker, reducing deployment times by over 40%",
-      "Colaborated effectively with cross-functional teams, leading to a 20% reduction in project delivery time"
+      "Designed Enterprise Platforms: Created dynamic employee management systems with React.js for efficient data handling and performance tracking.",
+      "Developed APIs: Built secure RESTful APIs with Node.js and Express.js to streamline backend data operations.",
+      "Improved State Management: Implemented complex state solutions using Redux Toolkit for consistent and reliable application behavior.",
+      "Streamlined Data Queries: Leveraged GraphQL to optimize data fetching, enhance system performance, and reduce load times."
     ],
   },
   {
-    title: "Frontend Developer",
-    company_name: "Humming Bot",
+    title: "Junior Full-Stack Developer",
+    company_name: "TechFlow Solutions",
     icon: "/company/humming.png",
     iconBg: "rgb(56, 62, 86)",
     date: "Feb 2017 - Feb 2019",
     points: [
-      "Launched a website for crypto market makers for an open-source software company resulting in a 40% increase in website traffic",
-      "Implemented server-side rendering with Next.js for the main product site, resulting in a 50% improvement in load times",
-      "Redesigned the frontend onboarding process in collaboration with QA and marketing teams improving user retention by 40%",
-      "Implemented analytics tools on the frontend to track user engagement leading to a 15% increase in active users",
-      "Introduced Elixir in a microservides architecture for real-time data proecessing, improving throughput by 30%"
+      "Built E-Commerce Systems: Developed scalable platforms serving millions of users with Node.js, Express.js, and robust REST APIs.",
+      "Improved Efficiency: Enhanced site performance by reducing page load times 20% through lazy loading and optimized asset management.",
+      "Collaborated with Senior Teams: Adopted clean coding practices, performance optimization techniques, and version control methodologies under senior developer mentorship."
     ],
   },
 ];
