@@ -41,8 +41,8 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         Full-Stack Developer with <b>9+</b> years of experience specializing in front-end technologies 
-        like <b><i>React.js, Next.js</i></b>, and <b><i>Angular</i></b>, and back-end expertise in <b><i>Node.js, Express.js</i></b>, and <b><i>GoLang</i></b> . 
-        Skilled in building scalable web applications and data visualizations, and implementing cloud solutions with <b><i>AWS, Docker</i></b>, and <b><i>CI/CD </i></b>pipelines.
+        like <b><i>React.js, Next.js</i></b>, and <b><i>Angular</i></b>, and back-end expertise in <b><i>Node.js, Express.js, Java</i></b>, and <b><i>AI</i></b> . 
+        Skilled in building scalable web applications and data visualizations, and implementing cloud solutions with <b><i>AWS, Docker, Kubernetes</i></b>, and <b><i>CI/CD </i></b>pipelines.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
