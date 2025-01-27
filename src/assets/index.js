@@ -18,10 +18,12 @@ import vue from "./tech/vue.png";
 import angular from "./tech/angular.png";
 import gatsby from "./tech/gatsby.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import aws from "./tech/aws.png"
+import java from "./tech/java.png";
 import express from "./tech/express.png";
 import nest from "./tech/nest.png";
 import qt from "./tech/qt.png";
-import python from "./tech/python.png";
 import mongodb from "./tech/mongodb.png";
 import mysql from "./tech/mysql.png";
 import git from "./tech/git.png";
@@ -64,6 +66,8 @@ export {
   mysql,
   qt,
   python,
+  aws,
+  java,
   git,
   docker,
   figma,

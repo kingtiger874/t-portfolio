@@ -8,11 +8,14 @@ import {
   git,
 
   threejs,
+  python,
+  aws,
   vue,
   next,
   mysql,
   express,
   nest,
+  java,
   docker,
   cogmento,
   goons,
@@ -75,21 +78,25 @@ const technologies = [
     name: "Next",
     icon: next,
   },
+  // {
+  //   name: "Vue",
+  //   icon: vue,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
-    name: "Vue",
-    icon: vue,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
+    name: "Python",
+    icon: python,
   },
   {
     name: "Express",
     icon: express,
   },
   {
-    name: "Nest",
-    icon: nest,
+    name: "Java",
+    icon: java,
   },
   {
     name: "MongoDB",
@@ -98,6 +105,10 @@ const technologies = [
   {
     name: "MySQL",
     icon: mysql,
+  },
+  {
+    name: "AWS",
+    icon: aws,
   },
   {
     name: "Git",
@@ -111,57 +122,46 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Front-End Developer",
-    company_name: "FinTech Innovations",
+    title: "Full-Stack Developer",
+    company_name: "Cohere Health",
     icon: "/company/insurecert.png",
     iconBg: "rgb(230, 222, 221)",
-    date: "Jan 2023 - Dec 2024",
+    date: "Dec 2023 - Dec 2024",
     points: [
-      "Built Interactive Financial Tools: Developed dynamic dashboards using React.js and D3.js to display investment trends, market data, and portfolio analytics.",
-      "Integrated Live Updates: Utilized WebSocket technology to enable seamless real-time data flow for stock prices and portfolio values.",
-      "Enhanced Performance: Optimized rendering of extensive data sets with React Window, ensuring smooth interaction and fast load times.",
-      "Responsive UI Design: Created device-agnostic, visually appealing user interfaces with Tailwind CSS and SCSS for consistent experiences.",
-      "Collaborated Across Teams: Partnered with UI/UX designers to deliver user-friendly platforms tailored to retail and institutional clients.",
-      "Ensured Data Integrity: Implemented advanced security measures aligned with fintech compliance standards to protect sensitive user information."
-
+      "Contributed to the development of the Cohere Unify Platform, leveraging AI and machine learning to streamline prior authorization processes and improve patient access to quality care.",
+      "Designed and implemented scalable RESTful APIs and backend systems using Node.js, Express, Python, and Java, enabling real-time integration between health plans and care providers.",
+      "Built predictive analytics features using TensorFlow and Python, allowing health plans to create data-driven care paths and pre-approve patients for services proactively.",
+      "Developed user-friendly interfaces with React and Angular, providing healthcare providers with seamless tools to manage prior authorizations efficiently.",
+      "Enhanced system performance and scalability by deploying a microservices architecture on AWS, utilizing Docker and Kubernetes for containerization and orchestration.",
+      "Secured sensitive healthcare data by implementing multi-factor authentication, encryption mechanisms, and ensuring compliance with HIPAA and industry data standards."
+    ],
+  },
+  {
+    title: "Full-Stack Engineer",
+    company_name: "ScienceSoft ",
+    icon: "/company/overture.png",
+    iconBg: "rgb(230, 222, 221)",
+    date: "Jun 2020 - Nov 2023",
+    points: [
+      "Delivered a Cloud-Based Financial Data Analytics Platform and an AI Financial Fraud Detection System, using Java, Python, JavaScript/TypeScript, Angular, React, AWS, PostgreSQL, MySQL, and AI technologies to meet financial industry needs.",
+      "Designed a financial data analytics platform capable of real-time processing and reporting, utilizing Apache Spark, Hadoop, and Kafka, with interactive dashboards built in React and Angular to streamline insights for financial institutions.",
+      "Built an AI-driven fraud detection system for real-time anomaly detection, leveraging Torch, TensorFlow, and Keras, significantly improving fraud prevention accuracy.",
+      "Integrated the Ethereum blockchain for secure transaction tracking and implemented smart contracts with Solidity, ensuring transparency and trust in real-time financial operations.",
+      "Migrated systems to AWS, utilizing serverless architectures (Lambda), containerized services with Docker, and secure data storage with PostgreSQL and MySQL, ensuring scalability and high availability for real-time applications."
     ],
   },
   {
     title: "Full-Stack Developer",
-    company_name: "CloudWorks Solutions",
-    icon: "/company/overture.png",
-    iconBg: "rgb(230, 222, 221)",
-    date: "Apr 2020 - Dec 2023",
-    points: [
-      "Developed Interactive Applications: Delivered scalable inventory and learning platforms featuring live data synchronization to boost user engagement and reduce latency.",
-      "Optimized Cloud Performance: Integrated AWS CloudFront to accelerate content delivery and improve system responsiveness.",
-      "Real-Time Synchronization: Implemented WebSockets for instant notifications and data updates, enhancing the user experience.",
-      "Full-Stack Development: Built clean, maintainable solutions using Angular, Next.js, Node.js, and Tailwind CSS, meeting diverse project requirements."
-    ],
-  },
-  {
-    title: "Front-End & Back-End Developer",
-    company_name: "GlobalTech Innovations",
+    company_name: "Fjorge ",
     icon: "/company/goons.png",
     iconBg: "rgb(56, 62, 86)",
-    date: "Mar 2019 - Jan 2022",
+    date: "Jul 2015 - Mar 2020",
     points: [
-      "Designed Enterprise Platforms: Created dynamic employee management systems with React.js for efficient data handling and performance tracking.",
-      "Developed APIs: Built secure RESTful APIs with Node.js and Express.js to streamline backend data operations.",
-      "Improved State Management: Implemented complex state solutions using Redux Toolkit for consistent and reliable application behavior.",
-      "Streamlined Data Queries: Leveraged GraphQL to optimize data fetching, enhance system performance, and reduce load times."
-    ],
-  },
-  {
-    title: "Junior Full-Stack Developer",
-    company_name: "TechFlow Solutions",
-    icon: "/company/humming.png",
-    iconBg: "rgb(56, 62, 86)",
-    date: "Feb 2017 - Feb 2019",
-    points: [
-      "Built E-Commerce Systems: Developed scalable platforms serving millions of users with Node.js, Express.js, and robust REST APIs.",
-      "Improved Efficiency: Enhanced site performance by reducing page load times 20% through lazy loading and optimized asset management.",
-      "Collaborated with Senior Teams: Adopted clean coding practices, performance optimization techniques, and version control methodologies under senior developer mentorship."
+      "Delivered custom CMS platforms, Employee Management Systems (EMS), eCommerce applications, and ADA-compliant websites using Java, Angular, Node.js, AWS, and AI technologies to meet diverse client needs.",
+      "Designed CMS platforms with custom plugins, AI-powered search features, and intuitive UI/UX elements, streamlining content workflows and enhancing usability for clients across industries.",
+      "Migrated legacy systems to AWS, leveraging serverless architectures (Lambda) and Docker to improve scalability and reduce costs.",
+      "Configured and maintained CI/CD pipelines, enabling efficient deployments, improved performance, and scalability for applications handling high traffic volumes.",
+      "Worked closely with cross-functional teams, including UI/UX designers and solutions architects, to deliver client-focused solutions, contributing to Fjorge’s 5.0-star Clutch rating for exceptional project outcomes."
     ],
   },
 ];
