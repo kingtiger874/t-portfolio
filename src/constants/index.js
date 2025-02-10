@@ -129,7 +129,7 @@ const experiences = [
   {
     title: "Full-Stack Engineer|contract",
     company_name: "FloEver Health",
-    icon: "/company/floever.png",
+    icon: "/company/floever.PNG",
     iconBg: "rgb(230, 222, 221)",
     date: "Dec 2023 - Dec 2024",
     points: [
@@ -143,7 +143,7 @@ const experiences = [
   {
     title: "Full-Stack Engineer",
     company_name: "Onward Delivery",
-    icon: "/company/onward.png",
+    icon: "/company/onward.PNG",
     iconBg: "rgb(230, 222, 221)",
     date: "May 2020 - Nov 2023",
     points: [
