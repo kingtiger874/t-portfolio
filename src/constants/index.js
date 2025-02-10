@@ -222,7 +222,7 @@ const projects = [
       // },
     ],
     image: onwardurl,
-    site_link: "https://goonsofbalatroon.com",
+    site_link: "https://www.onwarddelivery.com/",
   },
   {
     name: "Contetn Management System Platform",
