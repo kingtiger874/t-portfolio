@@ -11,6 +11,7 @@ import {
   python,
   aws,
   vue,
+  angular,
   next,
   mysql,
   express,
@@ -18,6 +19,9 @@ import {
   java,
   docker,
   cogmento,
+  CMS,
+  onwardurl,
+  EMSurl,
   goons,
   humming,
   proper,
@@ -52,7 +56,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Web Developer",
+    title: "Java Developer",
     icon: web,
   },
   // {
@@ -75,8 +79,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Next",
-    icon: next,
+    name: "Angular",
+    icon: angular,
+  },
+  {
+    name: "Java",
+    icon: java,
   },
   // {
   //   name: "Vue",
@@ -94,10 +102,7 @@ const technologies = [
     name: "Express",
     icon: express,
   },
-  {
-    name: "Java",
-    icon: java,
-  },
+
   {
     name: "MongoDB",
     icon: mongodb,
@@ -122,46 +127,45 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Cohere Health",
-    icon: "/company/insurecert.png",
+    title: "Full-Stack Engineer|contract",
+    company_name: "FloEver Health",
+    icon: "/company/floever.png",
     iconBg: "rgb(230, 222, 221)",
     date: "Dec 2023 - Dec 2024",
     points: [
-      "Contributed to the development of the Cohere Unify Platform, leveraging AI and machine learning to streamline prior authorization processes and improve patient access to quality care.",
-      "Designed and implemented scalable RESTful APIs and backend systems using Node.js, Express, Python, and Java, enabling real-time integration between health plans and care providers.",
-      "Built predictive analytics features using TensorFlow and Python, allowing health plans to create data-driven care paths and pre-approve patients for services proactively.",
-      "Developed user-friendly interfaces with React and Angular, providing healthcare providers with seamless tools to manage prior authorizations efficiently.",
-      "Enhanced system performance and scalability by deploying a microservices architecture on AWS, utilizing Docker and Kubernetes for containerization and orchestration.",
-      "Secured sensitive healthcare data by implementing multi-factor authentication, encryption mechanisms, and ensuring compliance with HIPAA and industry data standards."
+      "Overview: Built a HIPAA-compliant telemedicine platform to improve women’s healthcare accessibility through real-time video consultations and AI-driven health insights.",
+      "Built Telemedicine Platform: Developed a HIPAA-compliant telemedicine platform using React.js, Node.js, and WebRTC, enabling secure real-time video consultations.",
+      "AI Integration: Implemented AI-powered health insights by integrating pre-trained machine learning models to enhance early detection and personalized treatment plans.",
+      "Data Visualization: Developed interactive dashboards (D3.js) for tracking patient data, improving data accessibility by 40% and enhancing clinical decision-making.",
+      "Security & Compliance: Strengthened HIPAA-compliant authentication with OAuth2 and JWT, reducing unauthorized access by 30%."
     ],
   },
   {
     title: "Full-Stack Engineer",
-    company_name: "ScienceSoft ",
-    icon: "/company/overture.png",
+    company_name: "Onward Delivery",
+    icon: "/company/onward.png",
     iconBg: "rgb(230, 222, 221)",
-    date: "Jun 2020 - Nov 2023",
+    date: "May 2020 - Nov 2023",
     points: [
-      "Delivered a Cloud-Based Financial Data Analytics Platform and an AI Financial Fraud Detection System, using Java, Python, JavaScript/TypeScript, Angular, React, AWS, PostgreSQL, MySQL, and AI technologies to meet financial industry needs.",
-      "Designed a financial data analytics platform capable of real-time processing and reporting, utilizing Apache Spark, Hadoop, and Kafka, with interactive dashboards built in React and Angular to streamline insights for financial institutions.",
-      "Built an AI-driven fraud detection system for real-time anomaly detection, leveraging Torch, TensorFlow, and Keras, significantly improving fraud prevention accuracy.",
-      "Integrated the Ethereum blockchain for secure transaction tracking and implemented smart contracts with Solidity, ensuring transparency and trust in real-time financial operations.",
-      "Migrated systems to AWS, utilizing serverless architectures (Lambda), containerized services with Docker, and secure data storage with PostgreSQL and MySQL, ensuring scalability and high availability for real-time applications."
+      "Overview: Developed a Real-time Supply Chain Optimization Platform that enhanced shipment tracking, utilized AI for demand forecasting, and automated data streaming for improved efficiency.",
+      "Dashboard Development: Built Angular-based dashboards, improving real-time shipment tracking and reducing supply chain disruptions by 35%.",
+      "Microservices & API Optimization: Developed Java Spring Boot microservices, reducing API response times and improving backend performance.",
+      "Real-Time Data Processing: Integrated WebSockets and AWS Kinesis, reducing latency and ensuring immediate shipment updates.",
+      "Database Performance: Optimized PostgreSQL queries and caching mechanisms, supporting 10M+ transactions per day."
     ],
   },
   {
-    title: "Full-Stack Developer",
-    company_name: "Fjorge ",
-    icon: "/company/goons.png",
+    title: "Software Engineer",
+    company_name: "Atomic Object",
+    icon: "/company/atomic.png",
     iconBg: "rgb(56, 62, 86)",
-    date: "Jul 2015 - Mar 2020",
+    date: "Jun 2017 - Feb 2020",
     points: [
-      "Delivered custom CMS platforms, Employee Management Systems (EMS), eCommerce applications, and ADA-compliant websites using Java, Angular, Node.js, AWS, and AI technologies to meet diverse client needs.",
-      "Designed CMS platforms with custom plugins, AI-powered search features, and intuitive UI/UX elements, streamlining content workflows and enhancing usability for clients across industries.",
-      "Migrated legacy systems to AWS, leveraging serverless architectures (Lambda) and Docker to improve scalability and reduce costs.",
-      "Configured and maintained CI/CD pipelines, enabling efficient deployments, improved performance, and scalability for applications handling high traffic volumes.",
-      "Worked closely with cross-functional teams, including UI/UX designers and solutions architects, to deliver client-focused solutions, contributing to Fjorge’s 5.0-star Clutch rating for exceptional project outcomes."
+      "Overview: Developed  several platforms and applications such as CMS platform, Employee Management System (EMS), eCommerce applications.",
+      "Built E-Commerce Systems: Developed scalable platforms serving millions of users with Node.js, Express.js, and robust REST APIs.",
+      "Built secure EMS platforms: Automated payroll, employee performance tracking, and HR data management with AI-driven analytics and user-friendly dashboards  with Java, Spring Boot and MongoDB.",
+      "Developed custom CMS solutions: Enabled content creation, role-based access control, and multi-user collaboration with React, Node.js, and PostgreSQL.",
+      "Client Collaboration: Worked directly with clients and business stakeholders to translate technical requirements into functional solutions, ensuring 100% on-time project delivery."
     ],
   },
 ];
@@ -196,26 +200,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Cogmento CRM",
+    name: "Global Supply Chain Optimization Platform",
     description:
-      "This platform offers a comprehensive CRM solution that helps businesses manage customer relationships, sales, and marketing efforts through a user-friendly interface and various tools.",
-    tags: [
-      // {
-      //   name: "React",
-      //   color: "blue-text-gradient",
-      // },
-      // {
-      //   name: "Django",
-      //   color: "green-text-gradient",
-      // },
-    ],
-    image: cogmento,
-    site_link: "https://cogmento.com",
-  },
-  {
-    name: "Goons of Balatroon",
-    description:
-      "This website showcases an NFT card game, featuring gameplay mechanics and community engagement through various interactive elements and events.",
+      "Onward Delivery connects shippers with carriers to optimize bulky item transport using data-driven matching, real-time tracking, and digital proof of delivery, reducing costs and improving efficiency.",
     tags: [
       // {
       //   name: "React",
@@ -234,8 +221,71 @@ const projects = [
       //   color: "green-text-gradient",
       // },
     ],
-    image: goons,
+    image: onwardurl,
     site_link: "https://goonsofbalatroon.com",
+  },
+  {
+    name: "Contetn Management System Platform",
+    description:
+      "It provides features, documentation, tutorials, and a plugin marketplace for developers and content managers. The site supports users in API creation, content management, customization, and integrations.",
+    tags: [
+      // {
+      //   name: "React",
+      //   color: "blue-text-gradient",
+      // },
+      // {
+      //   name: "Node",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "Web3",
+      //   color: "pink-text-gradient",
+      // },
+      // {
+      //   name: "IMX",
+      //   color: "green-text-gradient",
+      // },
+    ],
+    image: CMS,
+    site_link: "https://goonsofbal.com",
+  },
+  {
+    name: "Employee Management Platform",
+    description:
+      "This allows you to track hours worked, manage benefits enrollment, and run payroll all from a single platform. No more data double entry and manual approval processes—just easy, accurate payroll.",
+    tags: [
+      // {
+      //   name: "React",
+      //   color: "blue-text-gradient",
+      // },
+      // {
+      //   name: "Express",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "Contentful",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: EMSurl,
+    site_link: "https://www.bamboohr.com/",
+  },
+  {
+    name: "Cogmento CRM",
+    description:
+      "This platform offers a comprehensive CRM solution that helps businesses manage customer relationships, sales, and marketing efforts through a user-friendly interface and various tools.",
+    tags: [
+      // {
+      //   name: "React",
+      //   color: "blue-text-gradient",
+      // },   
+      // {
+      //   name: "Django",
+      //   color: "green-text-gradient",
+      // },
+    ],
+    image: cogmento,
+    site_link: "https://cogmento.com",
   },
   {
     name: "HummingBot.io",
@@ -260,28 +310,7 @@ const projects = [
       // },
     ],
     image: humming,
-    site_link: "https://hummingbot.io",
-  },
-  {
-    name: "Properstar Estate",
-    description:
-      "Properstar is a property rental platform that connects users with real estate listings, offering a variety of properties for rent and sale in different locations, along with helpful search features.",
-    tags: [
-      // {
-      //   name: "React",
-      //   color: "blue-text-gradient",
-      // },
-      // {
-      //   name: "Express",
-      //   color: "green-text-gradient",
-      // },
-      // {
-      //   name: "Contentful",
-      //   color: "pink-text-gradient",
-      // },
-    ],
-    image: proper,
-    site_link: "https://www.properstar.com",
+    site_link: "https://www.onwarddelivery.com/.io",
   },
   {
     name: "Diyar News",

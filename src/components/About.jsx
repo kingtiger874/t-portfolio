@@ -40,9 +40,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Full-Stack Developer with <b>9+</b> years of experience specializing in front-end technologies 
-        like <b><i>React.js, Next.js</i></b>, and <b><i>Angular</i></b>, and back-end expertise in <b><i>Node.js, Express.js, Java</i></b>, and <b><i>AI</i></b> . 
-        Skilled in building scalable web applications and data visualizations, and implementing cloud solutions with <b><i>AWS, Docker, Kubernetes</i></b>, and <b><i>CI/CD </i></b>pipelines.
+        Full-Stack Engineer with <b><i>7+</i></b> years of experience in <b><i>AI-driven, cloud-native</i></b> applications 
+        across healthcare, logistics, and enterprise platforms. 
+        Skilled in <b><i>Java, Spring Boot, Node.js, React, Angular, and AWS</i></b>, 
+        with expertise in real-time data, microservices, and DevOps.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">

@@ -31,6 +31,9 @@ import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 
 import cogmento from "./port/cogmento.png";
+import CMS from "./port/CMS.PNG";
+import onwardurl from "./port/onwardurl.png";
+import EMSurl from "./port/EMSurl.PNG";
 import goons from "./port/goons.png";
 import humming from "./port/humming.png";
 import proper from "./port/proper.png";
@@ -73,6 +76,9 @@ export {
   figma,
 
   cogmento,
+  CMS,
+  onwardurl,
+  EMSurl,
   goons,
   humming,
   proper,
