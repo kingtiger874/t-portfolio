@@ -42,7 +42,7 @@ const About = () => {
       >
         Full-Stack Engineer with <b><i>7+</i></b> years of experience in <b><i>AI-driven, cloud-native</i></b> applications 
         across healthcare, logistics, and enterprise platforms. 
-        Skilled in <b><i>Java, Spring Boot, Node.js, React, Angular, and AWS</i></b>, 
+        Skilled in <b><i>Java, Spring Boot, AI, Node.js, React, Angular, and AWS</i></b>, 
         with expertise in real-time data, microservices, and DevOps.
       </motion.p>
 

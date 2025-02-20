@@ -141,11 +141,25 @@ const experiences = [
     ],
   },
   {
+    title: "AI/ML Engineer|contract",
+    company_name: "Viam",
+    icon: "/company/viam.PNG",
+    iconBg: "rgb(230, 222, 221)",
+    date: "Jul 2023 - Feb 2024",
+    points: [
+      "Overview: Improved the accuracy and reliability of an LLM-based chatbot by fine-tuning a GPT-2 model, enhancing response coherence and reducing hallucinations for enterprise clients.",
+      "LLM Fine-Tuning: Fine-tuned GPT-2 on domain-specific datasets, resulting in a 23.3% improvement in model accuracy (measured using BLEU and ROUGE scores).",
+      "Model Optimization: Applied Reinforcement Learning with Human Feedback (RLHF) to enhance the contextual understanding and response quality, reducing incorrect responses by 38%.",
+      "Embedding Integration: Integrated domain-specific embedding models (with FAISS) for better semantic understanding, improving chatbot accuracy in complex queries.",
+      "Client Retention: Improved chatbot reliability led to nearly 25% increase in client retention, securing long-term contracts with key clients. (checked using business KPIs)"
+    ],
+  },
+  {
     title: "Full-Stack Engineer",
     company_name: "Onward Delivery",
     icon: "/company/onward.PNG",
     iconBg: "rgb(230, 222, 221)",
-    date: "May 2020 - Nov 2023",
+    date: "May 2020 - Jun 2023",
     points: [
       "Overview: Developed a Real-time Supply Chain Optimization Platform that enhanced shipment tracking, utilized AI for demand forecasting, and automated data streaming for improved efficiency.",
       "Dashboard Development: Built Angular-based dashboards, improving real-time shipment tracking and reducing supply chain disruptions by 35%.",
