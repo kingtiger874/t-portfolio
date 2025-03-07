@@ -127,45 +127,56 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Engineer|contract",
+    title: "Senior Full Stack Engineer",
+    company_name: "Oracle",
+    icon: "/company/oracle.png",
+    iconBg: "rgb(230, 222, 221)",
+    date: "Oct 2023 - Feb 2025",
+    points: [
+      "Directed a small team to revamp distributed API gateways and integrate enhanced frontend monitoring solutions using Java, Spring Boot, and Angular.",
+      "Reengineered caching and load-balancing strategies, which resulted in annual savings of up to $500K and bolstered transaction throughput for systems managing 1M+ daily transactions.",
+      "Mentored team members on advanced microservices methodologies and best practices.",
+    ],
+  },
+  {
+    title: "Java Backend Engineer",
+    company_name: "Oracle",
+    icon: "/company/oracle.png",
+    iconBg: "rgb(230, 222, 221)",
+    date: "Mar 2022 - Sep 2023",
+    points: [
+      "Designed and developed 10+ microservices-based backend systems using Java, Spring, and Python, enhancing scalability, maintainability, and system resilience.",
+      "Optimized Oracle SQL queries and indexing, reducing query execution time by 17%.",
+      "Collaborated seamlessly with frontend and DevOps teams in a remote/hybrid environment, optimizing backend integration and accelerating deployment workflows.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
     company_name: "FloEver Health",
     icon: "/company/floever.PNG",
     iconBg: "rgb(230, 222, 221)",
-    date: "Dec 2023 - Dec 2024",
+    date: "Sep 2023 - Oct 2024",
     points: [
-      "Overview: Built a HIPAA-compliant telemedicine platform to improve women’s healthcare accessibility through real-time video consultations and AI-driven health insights.",
-      "Built Telemedicine Platform: Developed a HIPAA-compliant telemedicine platform using React.js, Node.js, and WebRTC, enabling secure real-time video consultations.",
-      "AI Integration: Implemented AI-powered health insights by integrating pre-trained machine learning models to enhance early detection and personalized treatment plans.",
-      "Data Visualization: Developed interactive dashboards (D3.js) for tracking patient data, improving data accessibility by 40% and enhancing clinical decision-making.",
-      "Security & Compliance: Strengthened HIPAA-compliant authentication with OAuth2 and JWT, reducing unauthorized access by 30%."
+      "Led a HIPAA-compliant telemedicine platform with React.js, Spring Boot, and WebRTC, securing real-time video consultations.",
+      "Developed FHIR-compliant RESTful APIs using Java, Spring Boot, and PostgreSQL for seamless data exchange.",
+      "Architected microservices-based healthcare solutions on AWS, optimizing system scalability and fault tolerance.",
+      "Designed D3.js dashboards, enhancing clinical decision-making efficiency by 30%.",
+      "Mentored 2 junior developers in API security and cloud deployment."
     ],
   },
   {
-    title: "AI/ML Engineer|contract",
-    company_name: "Viam",
-    icon: "/company/viam.PNG",
-    iconBg: "rgb(230, 222, 221)",
-    date: "Jul 2023 - Feb 2024",
-    points: [
-      "Overview: Improved the accuracy and reliability of an LLM-based chatbot by fine-tuning a GPT-2 model, enhancing response coherence and reducing hallucinations for enterprise clients.",
-      "LLM Fine-Tuning: Fine-tuned GPT-2 on domain-specific datasets, resulting in a 23.3% improvement in model accuracy (measured using BLEU and ROUGE scores).",
-      "Model Optimization: Applied Reinforcement Learning with Human Feedback (RLHF) to enhance the contextual understanding and response quality, reducing incorrect responses by 38%.",
-      "Embedding Integration: Integrated domain-specific embedding models (with FAISS) for better semantic understanding, improving chatbot accuracy in complex queries.",
-      "Client Retention: Improved chatbot reliability led to nearly 25% increase in client retention, securing long-term contracts with key clients. (checked using business KPIs)"
-    ],
-  },
-  {
-    title: "Full-Stack Engineer",
+    title: "Java Software Developer",
     company_name: "Onward Delivery",
     icon: "/company/onward.PNG",
     iconBg: "rgb(230, 222, 221)",
-    date: "May 2020 - Jun 2023",
+    date: "May 2020 - Feb 2022",
     points: [
-      "Overview: Developed a Real-time Supply Chain Optimization Platform that enhanced shipment tracking, utilized AI for demand forecasting, and automated data streaming for improved efficiency.",
-      "Dashboard Development: Built Angular-based dashboards, improving real-time shipment tracking and reducing supply chain disruptions by 35%.",
-      "Microservices & API Optimization: Developed Java Spring Boot microservices, reducing API response times and improving backend performance.",
-      "Real-Time Data Processing: Integrated WebSockets and AWS Kinesis, reducing latency and ensuring immediate shipment updates.",
-      "Database Performance: Optimized PostgreSQL queries and caching mechanisms, supporting 10M+ transactions per day."
+      "Migrated a supply chain system by migrating Java 8 to Java 17 using Spring Boot, enhancing maintainability, security, and performance, and transitioned 100K+ lines of code with zero downtime.",
+      "Developed backend APIs using REST & GraphQL, enabling modern frameworks to integrate seamlessly and improving system response time by 40%.",
+      "Implemented custom Kafka serializers/deserializers for structured message encoding, enabling real-time data processing with Apache Spark.",
+      "Designed and developed user interfaces for the supply chain platform using React & Next.js, improving UI performance and accessibility.",
+      "Boosted frontend performance by implementing lazy loading, code splitting, and state management with React Context & Redux, improving page load speed by 35%.",
+      "Implemented Redis caching and Nginx reverse proxy, reducing server response times by 40% and enhancing content load times."
     ],
   },
   {
@@ -173,13 +184,24 @@ const experiences = [
     company_name: "Atomic Object",
     icon: "/company/atomic.png",
     iconBg: "rgb(56, 62, 86)",
-    date: "Jun 2017 - Feb 2020",
+    date: "Jun 2018 - Apr 2020",
     points: [
-      "Overview: Developed  several platforms and applications such as CMS platform, Employee Management System (EMS), eCommerce applications.",
-      "Built E-Commerce Systems: Developed scalable platforms serving millions of users with Node.js, Express.js, and robust REST APIs.",
-      "Built secure EMS platforms: Automated payroll, employee performance tracking, and HR data management with AI-driven analytics and user-friendly dashboards  with Java, Spring Boot and MongoDB.",
-      "Developed custom CMS solutions: Enabled content creation, role-based access control, and multi-user collaboration with React, Node.js, and PostgreSQL.",
-      "Client Collaboration: Worked directly with clients and business stakeholders to translate technical requirements into functional solutions, ensuring 100% on-time project delivery."
+      "Designed and implemented diverse platforms and applications, including a CRM platform, a microservices-based ERP, and various eCommerce solutions.",
+      "Enhanced server-side rendering with Express and Node.js, boosting SEO and performance for e-commerce product pages, leading to increased user engagement and conversions.",
+      "Implemented an AI-powered chatbot using TensorFlow, Python, and NLP, enhancing user interaction and automating customer support on e-commerce platforms.",
+      "Designed and implemented RESTful and GraphQL APIs with Spring Boot, enabling seamless data exchange across HR, finance, and inventory modules in an enterprise ERP system, improving integration and operational efficiency.",
+    ],
+  },
+  {
+    title: "Front End Development Intern",
+    company_name: "Disney Interactive",
+    icon: "/company/disney.png",
+    iconBg: "rgb(56, 62, 86)",
+    date: "Jun 2017 - Dec 2017",
+    points: [
+      "Assisted in creating responsive web pages using HTML and CSS for internal tools and platforms.",
+      "Worked on enhancing the user interface (UI) and ensuring accessibility across web platforms.",
+      "Collaborated with senior developers to test and troubleshoot website functionality and user experience."
     ],
   },
 ];
