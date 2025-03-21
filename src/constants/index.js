@@ -151,7 +151,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full Stack Developer",
+    title: "Full Stack Engineer",
     company_name: "FloEver Health",
     icon: "/company/floever.PNG",
     iconBg: "rgb(230, 222, 221)",
@@ -165,7 +165,7 @@ const experiences = [
     ],
   },
   {
-    title: "Java Software Developer",
+    title: "Software Engineer",
     company_name: "Onward Delivery",
     icon: "/company/onward.PNG",
     iconBg: "rgb(230, 222, 221)",
@@ -180,7 +180,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software Engineer",
+    title: "Software Developer",
     company_name: "Atomic Object",
     icon: "/company/atomic.png",
     iconBg: "rgb(56, 62, 86)",
